@@ -17,4 +17,4 @@ while guess != num and count < 5:
 if guess == num:
     print(f'Good job, {name}! You guessed my number in {count} guesses!')
 else:
-    print(f'{name}, YOU LOSS :-(')
+    print(f'{name.upper}, YOU LOSS :-(')
