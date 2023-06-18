@@ -3,8 +3,8 @@ import random
 name = input('Hello! What is your name?\n')
 num = random.randint(1, 20)
 guess = int(
-    input(f'Well, {name}, I am thinking of a number between 1 and 20.\n'
-          f'Take a guess.\n'))
+    input(f'Well, {name.upper()}, I am thinking of a number between 1 and 20.'
+          f'\nTake a guess.\n'))
 count = 1
 
 while guess != num and count < 5:
@@ -15,6 +15,7 @@ while guess != num and count < 5:
     count += 1
 
 if guess == num:
-    print(f'Good job, {name}! You guessed my number in {count} guesses!')
+    print(f'Good job, {name.upper()}!'
+          f' You guessed my number in {count} guesses!')
 else:
-    print(f'{name.upper}, YOU LOSS :-(')
+    print(f'{name.upper()}, YOU LOSS :-(')
