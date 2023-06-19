@@ -1,6 +1,6 @@
-doron = 3
-liran = 5
-elay = 6
+doron = 5
+liran = 7
+elay = 8
 
 Total_Apples = doron + liran + elay
 
