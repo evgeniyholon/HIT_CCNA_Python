@@ -1,10 +1,5 @@
-doron = 5
-liran = 7
-elay = 8
+doron, liran, elay = 5, 7, 8
+total_apples = doron + liran + elay
 
-Total_Apples = doron + liran + elay
-
-print(
-    f'Doron - {doron} apples\nLiran - {liran} apples\n'
-    f'Elay - {elay} apples\nTotal - {Total_Apples} apples'
-)
+print(f'Doron - {doron} apples\nLiran - {liran} apples\n'
+      f'Elay - {elay} apples\nTotal - {total_apples} apples')
