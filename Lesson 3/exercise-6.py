@@ -1,8 +1,7 @@
 import random
 
-count = 7
-total = 0
-numbers_str = ''
+count, total, numbers_str = 7, 0, ''
+
 for i in range(count):
     num = random.randint(1, 100)
     numbers_str += str(num)
