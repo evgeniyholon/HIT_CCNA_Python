@@ -1,3 +1,4 @@
+"""The game: Guess the number"""
 import random
 
 name = input('Hello! What is your name?\n')
